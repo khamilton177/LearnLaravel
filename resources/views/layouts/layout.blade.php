@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/blog.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
   </head>
 
   <body>
@@ -23,7 +24,7 @@
 
     <div class="blog-header">
       <div class="container">
-        <h1 class="blog-title">The BlogaSpere</h1>
+        <h1 class="blog-title">The BlogaSphere</h1>
         <p class="lead blog-description">A little blog for a big world.</p>
       </div>
     </div>

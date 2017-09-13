@@ -3,23 +3,29 @@
 namespace App\Http\Controllers;
 
 use App\Post;
+use App\Task;
 use Illuminate\Http\Request;
 
 class PostsController extends Controller
 {
   public function index()
   {
-      return view('posts.index');
+    $posts = Post::all();
+    // Show tasks in sidebar
+    $tasks = Task::all();
+    return view('posts.index', compact('posts'), compact('tasks'));
   }
 
   public function show()
   {
-      return view('posts.show');
+    $tasks = Task::all();
+    return view('posts.show', compact('tasks'));
   }
 
   public function create()
   {
-      return view('posts.create');
+    $tasks = Task::all();
+    return view('posts.create', compact('tasks'));
   }
 
   public function store()
