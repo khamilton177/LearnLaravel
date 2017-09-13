@@ -1,0 +1,14 @@
+title,body
+Laravel Installation and Composer,Install was way easier than doing LAMP piece by piece thanks to Valet.
+Basic Routing and Views,Use 'store' instead of 'update'
+Laravel Valet is Your Best Friend,Yes itt was.
+"Database Setup and Sequel Pro
+",I like this Laracast guy.  Woouldn't have know about Sequel Pro without him.
+Pass Data to Your Views,Able to cross reference and pass data to different view.
+Working With the Query Builder,Need to use scopes more.
+Eloquent 101,This is active record.
+Controllers,Rails dir structure is more intuitive.
+Route Model Binding,Use php artisan route:list to see all configured routes.
+Layouts and Structure,Same use of partials.
+Form Request Data and CSRF,Put the line in the form not the model.
+Form Validation 101,Validation done in controller.  Rails does it in model.
